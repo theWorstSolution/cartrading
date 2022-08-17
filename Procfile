@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn carTrading-ver4.wsgi --log-file=-
+web: gunicorn cartrading.wsgi --log-file=-
